@@ -33,10 +33,9 @@ const About = () => {
                 data-bs-slide-to='0'
                 aria-current='true'
                 aria-label='Slide 1'>
-                <h4>Community Driven</h4>
+                <h4>Community Driven PASSIVE REWARDS</h4>
                 <p>
-                  Community driven & fair launch. The dev team burned all of
-                  their tokens and participated with everyone else.
+                ONEMOON is a deflationary "static/reflective rewards" defi experiment inspired by Passive Reward Mechanics.
                 </p>
               </button>
               <button
@@ -44,10 +43,9 @@ const About = () => {
                 data-bs-target='#carouselExampleIndicators'
                 data-bs-slide-to='1'
                 aria-label='Slide 2'>
-                <h4>Automatic LP</h4>
+                <h4>FEES</h4>
                 <p>
-                  Every trade contributes towards automatically generating
-                  liquidity that goes into multiple pools used by exchanges
+                5% goes to existing holders of ONEMOON as rewards. 2.5% is used to create permanently locked liquidity between ONEMOON-ONE using MochiSwap LPs.
                 </p>
               </button>
               <button
@@ -55,10 +53,19 @@ const About = () => {
                 data-bs-target='#carouselExampleIndicators'
                 data-bs-slide-to='2'
                 aria-label='Slide 3'>
-                <h4>RFI Static Rewards</h4>
+                <h4>BURNS</h4>
                 <p>
-                  Holders earn passive rewards through static reflection as they
-                  watch their balance of SafeMoon grow indefinitely.
+                1.25% is used to burn ONEMOON, 1.25% is used to burn HMOCHI.
+                </p>
+              </button>
+              <button
+                className='p-2'
+                data-bs-target='#carouselExampleIndicators'
+                data-bs-slide-to='2'
+                aria-label='Slide 3'>
+                <h4>FAIR LAUNCH</h4>
+                <p>
+                ONEMOON is a Community Project. It was launched fairly, all tokens have been minted and added to LOCKED liquidity in a MochiSwap LP. There was no presale, ICO, or any pre-distribution. All Tokens can only be swapped for in the open market.
                 </p>
               </button>
             </div>
@@ -96,7 +103,7 @@ const About = () => {
         <div className='container-fluid External-links'>
           <div className='container text-center'>
             <div className='row'>
-              <div className='col-sm'>
+              {/* <div className='col-sm'>
                 <a href='https://bscscan.com/token/0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3'>
                   <img src={BscScan} alt='...' width='150' />
                 </a>
@@ -110,15 +117,15 @@ const About = () => {
                 <a href='https://nomics.com/assets/safemoon-safemoon'>
                   <img src={nomics} alt='...' width='150' />
                 </a>
-              </div>
+              </div> */}
               <div className='col-sm'>
-                <a href='https://coinmarketcap.com/currencies/safemoon/'>
-                  <img src={coinmarket} alt='...' width='150' />
+                <a href='https://harmony.one'>
+                  <img src={coinmarket} alt='...' width='250' />
                 </a>
               </div>
               <div className='col-sm'>
-                <a href='https://www.coingecko.com/en/coins/safemoon'>
-                  <img src={coingecko} alt='...' width='150' />
+                <a href='https://one.mochiswap.io'>
+                  <img src={coingecko} alt='...' width='250' />
                 </a>
               </div>
             </div>

@@ -24,10 +24,10 @@ function Home() {
       <Navbar />
       <Wellcome />
       <About />
-      <Moon3D />
+      {/* <Moon3D /> */}
       <RoadMap />
-      <Team />
-      <Footer />
+      {/* <Team />
+      <Footer /> */}
     </>
   );
 }

@@ -37,16 +37,16 @@ const RoadMap = () => {
     */}
           <div className='row text-center'>
             <div className='col-sm-12 '>
-              <span>
+              {/* <span>
                 <IoRocketSharp
                   style={{
                     fontSize: 84,
-                    color: "#fb6340",
+                    color: "aqua",
                   }}
                 />
-              </span>
-              <h1> The Roadmap</h1>
-              <p>What we'll be up to in 2021</p>
+              </span> */}
+              <h1 style={{fontSize: 80, color: "rgb(118, 69, 217)"}}> Roadmap</h1>
+              <p>For the rest of 2021 we have some big plans....</p>
             </div>
           </div>
           {/* 
@@ -62,75 +62,59 @@ const RoadMap = () => {
               <Timeline mode='left' className='timeLine'>
                 <Timeline.Item
                   label='Q1 2021'
-                  color='red'
+                  color='aqua'
                   className='aos-init'
                   data-aos='fade-down'
                   data-aos-delay='1000'>
-                  <h4>Protocol Initialized</h4>
+                  <h4>OneMOON Founded</h4>
                   <p>
-                    We have successfully onboarded and confirmed a DogeCoin
-                    trading pair with Bibipom. We have also successfully begun
-                    integration process with WhiteBit and began legal paperwork
-                    with Bitmart. Our team size has doubled and our marketing
-                    campaign has begun.
+                     The early concept of a frictionless yield generation asset was born, for the first time seen on Harmony ONE, ONEMOON is the original deflationary on ONE!  The Community Project
+                     was started to empower Harmony ONE users the ability to enjoy a permissionless asset with locked liquidity, and frictionless staking. 
+                  </p>
+                </Timeline.Item>
+                <Timeline.Item
+                  label='Q1 2021'
+                  color='aqua'
+                  className='aos-init'
+                  data-aos='fade-down'
+                  data-aos-delay='150'>
+                  <h4>Successful Launch</h4>
+                  <p>
+                    ONEMOON had an explosive Launch! In the first 48 hours there was over 200K ONE/ONEMOON in new locked liquidity forming the 
+                    underlying base for ONEMOON.  In the coming days there would a great deal of community effort with a huge amount of newly formed
+                    chat rooms, youtube, tiktok, and twitter posts!
                   </p>
                 </Timeline.Item>
                 <Timeline.Item
                   label='Q2 2021'
-                  color='red'
+                  color='aqua'
                   className='aos-init'
                   data-aos='fade-down'
                   data-aos-delay='150'>
-                  <h4>The Initial Push</h4>
+                  <h4>New Exchanges, CoinGecko and CoinMarketCap Listings</h4>
                   <p>
-                    The Whitebit tokenomics integration will be completed along
-                    with the completion of the SafeMoon App, Wallet, and
-                    Game(s). The Bitmart integration with tokenomics will also
-                    be completed in this quarter. We will begin architecting the
-                    NFT Exchange as well as video-game integrations. We will be
-                    integrating SafeMoon with African Markets in addition to
-                    setting up a Charity drive and charity vote. We will be
-                    exploring other exchanges (i.e. Binance) and begin
-                    architecting the SafeMoon Exchange. We will be expanding the
-                    team by 35% and establish a UK/Ireland office. We will be
-                    architecting a crypto educational app as well as onboarding
-                    new partners.
+                    The community is now starting listing donation
+                    raise for several exchanges (i.e. Probit, BitMart, 
+                    Kraken, Bilaxy). The next stage is to complete some missing stages
+                    for full adoption of ONEMOON.  The First Listing donation has started
+                    for Bilaxy.  The exchange listing will be critical as it will not only
+                    give users an additional outlet for trading(something that was a concern),
+                    but this exchange listing will also automatically produce CoinGecko and CoinMarketCap Listings!
                   </p>
                 </Timeline.Item>
                 <Timeline.Item
-                  label='Q3 2021'
-                  color='red'
+                  label='Q2-Q4 2021'
+                  color='aqua'
                   className='aos-init'
                   data-aos='fade-down'
                   data-aos-delay='150'>
-                  <h4>Holding the Line</h4>
+                  <h4>The Moon and Beyound!</h4>
                   <p>
-                    We will finish our crypto educational app and begin our own
-                    charity project. We will begin a community listing donation
-                    raise for several exchanges (i.e. Coinbase, Binance,
-                    Kraken). We will finish our NFT exchange and release our
-                    first video game with SafeMoon integrated. We will be
-                    expanding the team by 25% and do a community meetup (pending
-                    covid restrictions). We will also be integrating with other
-                    large exchanges (I.e. Binance, Mandala).
-                  </p>
-                </Timeline.Item>
-                <Timeline.Item
-                  label='Q4 2021'
-                  color='red'
-                  className='aos-init'
-                  data-aos='fade-down'
-                  data-aos-delay='150'>
-                  <h4>To the Moon!</h4>
-                  <p>
-                    We will finish the SafeMoon Exchange and our charity
-                    project. We will finish integrations with our first African
-                    market and begin the next integrations with additional
-                    African markets. We will create an African based SafeMoon
-                    Office and begin hiring in those markets to create jobs. We
-                    will be taking donations for our next charity project and
-                    begin a vote on the next project as well. We will be
-                    establishing a SafeMoon Scholarship in this quarter as well.
+                    For the remaining part of the year the ONEMOON community will make full pushes of 
+                    awareness with some critical established items such as easy ONEMOON purchasing
+                    resources and listings on needed websites.  During this time period the tokenomics
+                    will also be relooked it, explorered and potentially updated if there is more
+                    benefical tokenomics with a community vote!
                   </p>
                 </Timeline.Item>
               </Timeline>

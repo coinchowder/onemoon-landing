@@ -21,7 +21,7 @@ const FirstNav = () => {
     <>
       <nav className='navbar navbar-expand-lg navbar-dark first-nav '>
         <div>
-          <span className='first-nav-brand'>The official home of Safemoon</span>
+          <span className='first-nav-brand'></span>
         </div>
         {/* 
 // ======================°°°°°°°°°°°°°°°°°°°°°°°=========================
@@ -31,41 +31,36 @@ const FirstNav = () => {
         <div className='icons-ul'>
           <ul>
             <li>
-              <a href='https://facebook.com/safemoonprotocol'>
+              <a target="_blank" href='https://www.facebook.com/onemooncoin'>
                 <FaFacebook className='icons' />
               </a>
             </li>
             <li>
-              <a href='https://twitter.com/safemoon'>
+              <a target="_blank" href='https://twitter.com/mochiswap'>
                 <FaTwitter className='icons' />
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href='https://www.instagram.com/safemoonhq/'>
                 <FaInstagram className='icons' />
               </a>
-            </li>
+            </li> */}
             <li>
-              <a href='https://github.com/Safemoon-Protocol'>
-                <FaGithub className='icons' />
-              </a>
-            </li>
-            <li>
-              <a href='https://www.reddit.com/r/SafeMoon/'>
+              <a target="_blank" href='https://www.reddit.com/r/onemoon/'>
                 <FaReddit className='icons' />
               </a>
             </li>
             <li>
-              <a href='https://t.me/safemoonv2'>
+              <a target="_blank" href='https://t.me/mochiswaponemoon'>
                 <RiTelegramFill className='icons' />ٖ
               </a>
             </li>
             <li>
-              <a href='https://discord.gg/safemoon'>
+              <a target="_blank" href='https://discord.gg/onemoon'>
                 <FaDiscord className='icons' />
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href='https://www.youtube.com/channel/UCbfKS3AEsY9QMYK7nxJjKqw'>
                 <FaYoutube className='icons' />
               </a>
@@ -74,7 +69,7 @@ const FirstNav = () => {
               <a href='https://twitch.tv/safemoonprotocol'>
                 <FaTwitch className='icons' />
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>

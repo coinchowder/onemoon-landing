@@ -2,8 +2,8 @@
 
 import Logo from "../Images/logo.png";
 import About_img1 from "../Images/About_img1.svg";
-import About_img2 from "../Images/About_img2.svg";
-import About_img3 from "../Images/About_img3.svg";
+import About_img2 from "../Images/About_img1.svg";
+import About_img3 from "../Images/About_img1.svg";
 import BscScan from "../Images/BscScan.png";
 import certik from "../Images/certik.svg";
 import nomics from "../Images/nomics.png";
