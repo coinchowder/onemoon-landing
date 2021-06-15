@@ -1,18 +1,22 @@
 /** @format */
 
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Router, Switch, Route } from "react-router-dom";
 import Home from "../Pages/Home";
 import WhitePaper from "../Pages/WhitePaper";
+import FundRaiser from "../Pages/Donate";
 const AppRouter = () => {
   return (
     <>
-      <Router>
-        <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/whitepaper.html' component={WhitePaper} />
-        </Switch>
-      </Router>
+        <BrowserRouter>
+          <Switch>
+            <Route path='/fundraiser' exact>
+              <FundRaiser />
+            </Route>
+            <Route path='/whitepaper.html' component={WhitePaper} />
+            <Route path='/' component={Home} />
+          </Switch>
+        </BrowserRouter>
     </>
   );
 };

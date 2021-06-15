@@ -65,7 +65,7 @@ const About = () => {
                 aria-label='Slide 3'>
                 <h4>FAIR LAUNCH</h4>
                 <p>
-                ONEMOON is a Community Project. It was launched fairly, all tokens have been minted and added to LOCKED liquidity in a MochiSwap LP. There was no presale, ICO, or any pre-distribution. All Tokens can only be swapped for in the open market.
+                ONEMOON is a DAO Community Project. It was launched fairly, all tokens have been minted and added to LOCKED liquidity in a MochiSwap LP. There was no presale, ICO, or any pre-distribution. All Tokens can only be swapped for in the open market.
                 </p>
               </button>
             </div>
@@ -118,14 +118,14 @@ const About = () => {
                   <img src={nomics} alt='...' width='150' />
                 </a>
               </div> */}
-              <div className='col-sm'>
+              <div className='col-sm-4'>
                 <a href='https://harmony.one'>
-                  <img src={coinmarket} alt='...' width='250' />
+                  <img className="extimage" src={coinmarket} alt='...' width='250' />
                 </a>
               </div>
-              <div className='col-sm'>
+              <div className='col-sm-2 offset-1'>
                 <a href='https://one.mochiswap.io'>
-                  <img src={coingecko} alt='...' width='250' />
+                  <img className="extimage" src={coingecko} alt='...' width='200' />
                 </a>
               </div>
             </div>

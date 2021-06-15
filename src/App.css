@@ -7,14 +7,14 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #212121;
+  background: #480090!important;
   border-radius: 10px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   border-radius: 20px !important;
-  background: #292e38 !important;
+  background: aqua!important;
 }
 
 /* Handle on selected */
@@ -204,6 +204,7 @@ body {
   font-family: "Poppins", sans-serif !important;
   font-family: 'Bebas Neue' !important;
 }
+
 /* .Wellcome-section a {
 } */
 .Wellcome-section h2 {
@@ -226,11 +227,6 @@ body {
   font-size: 24px!important;
 }
 
-.livestatsh {
-  font-family: 'Bebas Neue' !important;
-  font-size: 18px!important;
-}
-
 .Wellcome-section h6 {
   margin-top: -10px !important;
   font-family: "Poppins", sans-serif !important;
@@ -241,15 +237,23 @@ body {
   width: 500px !important;
 }
 
+.lineimage {
+  margin-right: 40px!important;
+}
+
 .Wellcome-section .button-live-chat {
   z-index: 13;
   background-color: rgb(0, 122, 255);
-  border: 3px solid white;
+  background-image: linear-gradient(
+    74.5deg
+    ,#00aee9,#69fabd);
+    
+  border: 1px solid white;
   font-family: apotek-extended, sans-serif;
-  font-weight: 500;
+  font-weight: 900;
   height: auto;
   width: auto;
-  color: rgb(255, 255, 255)!important;
+  color: #D900D9!important;
   text-decoration: none;
   white-space: nowrap;
   min-height: 0px;
@@ -313,6 +317,50 @@ body {
   text-transform: capitalize !important;
   font-family: "Poppins", sans-serif !important;
 }
+
+.Donate-section {
+  background-image: url("./Images/back1.jpg") !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  text-justify: left!important;
+}
+
+.Donate-section img {
+  padding: none!important;
+}
+
+.Donate-section h1 {
+  font-family: 'Bebas Neue' !important;
+  margin-bottom: 0px!important;
+  text-align: left!important;
+  color: aliceblue !important;
+  font-size: 80px!important;
+}
+
+.topone {
+  background: -webkit-linear-gradient(#00aee9,#69fabd)!important;
+  -webkit-background-clip: text!important;
+  -webkit-text-fill-color: transparent!important;
+}
+
+.Donate-section h2 {
+  margin-top: 20px!important;
+  font-family: 'Bebas Neue' !important;
+  text-align: left!important;
+  text-justify: left!important;
+  color: aliceblue !important;
+}
+
+.onemooncolor {
+  color: aqua!important;
+}
+
+.Donate-section p {
+  text-align: left!important;
+  text-justify: left!important;
+  color: aliceblue !important;
+}
+
 .about-btn-box:focus {
   background-color: red !important;
 }
@@ -559,3 +607,54 @@ a {
     width: 300px !important;
   }
 }
+
+.Wellcome-section p {
+  font-family: 'Bebas Neue' !important;
+  font-size: 1em!important;
+}
+
+.Wellcome-section .livestatsh2 {
+  margin-top: -40px!important;
+  color: rgb(251, 99, 64)!important;
+}
+
+@media only screen and (max-width: 600px) {
+  .Wellcome-section h1 {
+    font-size: 80px!important;
+    margin-top: -180px !important;
+    margin-bottom: 80px!important;
+  } 
+  .Wellcome-section .button-live-chat {
+    font-size: 18px!important;
+    padding: 1px 25px 1px 25px!important;
+    margin-bottom: 2px!important;
+  }
+  .livestats {
+    padding-top: 1px!important;
+    margin-top: 1px!important;
+  }
+  .about-full-page {
+    margin-top: 1px!important;
+    padding-top: 1px!important;
+  }
+  .roadMap h1 {
+    font-size: 50px!important;
+    margin-top: 1px!important;
+  }
+  .extimage {
+    display: hidden!important;
+    display: block!important;
+  }
+  .first-nav {
+    margin-top: 1px!important;
+  }
+}
+
+@media only screen and (min-width: 368px) and (max-width: 980px)  {
+  .first-nav {
+    margin-bottom: 20px!important;
+    margin-top: -21px!important;
+  }
+
+}
+

@@ -28,6 +28,7 @@ function Home() {
       <RoadMap />
       {/* <Team />
       <Footer /> */}
+      <FirstNav />
     </>
   );
 }

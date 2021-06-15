@@ -84,12 +84,14 @@ class Wellcome extends React.Component  {
                 data-aos='fade-up'
                 data-aos-offset='100'>
                 <p></p>
-                <h1 className="justify-content-center">ONEMOON</h1>
-                <h2 className="justify-content-center">The <span style={{ fontSize: 44, color: "#fb6340" }}>ORIGINAL</span> and FIRST Harmony ONE Community Driven Delfationary Project.</h2>
+                <div className="row">
+                <h1 className="justify-content-center"><span className="topone">ONE</span>MOON</h1>
+                </div>
+                <h2 className="justify-content-center">The <span style={{ color: "#fb6340" }}>ORIGINAL</span> and FIRST Harmony ONE Community Driven Delfationary Project.</h2>
                 <a target="_blank" href="https://one.mochiswap.io/#/swap?outputCurrency=0xCB35e4945c7F463c5CCBE3BF9f0389ab9321248F"className="justify-content-center">0xcb35e4945c7f463c5ccbe3bf9f0389ab9321248f</a>
                 {/* <p className="justify-content-center col-md-7 col-offset-4"> <img src={line} className='col-md-7 col-offset-4 text-center' alt='...' /></p> */}
-                <div className="col-4">
-                  <img src={line} className='w-400' alt='...' />
+                <div className="col-12 hidden-sm">
+                  <img src={line} className='hidden-sm img-fluid w-800 lineimage' alt='...' />
                 </div>
                 <a target="_blank" href="https://one.mochiswap.io/#/swap?outputCurrency=0xCB35e4945c7F463c5CCBE3BF9f0389ab9321248F" className='btn button button-live-chat'>GET ONEMOON NOW!</a>
                 {/* <button className='button-Buy-now'>
@@ -109,42 +111,46 @@ class Wellcome extends React.Component  {
               <div className='col-sm-3'>
                 <IoAnalyticsOutline
                   style={{
-                    fontSize: 74,
+                    fontSize: "4.5em",
                     color: "#fb6340",
+                    marginBottom: '15px'
                   }}
                 />
-                <h5 className="livestatsh">{this.state.containerDim * 1000000}</h5>
-                <p>1 Million ONEMOONS</p>
+                <p className="livestatsh">${this.state.containerDim * 1000000}</p>
+                <p className="livestatsh2">1 Million ONEMOONS</p>
               </div>
               <div className='col-sm-3'>
               <IoBarcodeOutline
                   style={{
-                    fontSize: 74,
+                    fontSize: "4.5em",
                     color: "#fb6340",
+                    marginBottom: '15px'
                   }}
                 />
-                <h5 className="livestatsh">476,012,583,323,917</h5>
-                <p>Max Ever Supply</p>
+                <p className="livestatsh">476,012,583,323,917</p>
+                <p className="livestatsh2">Max Ever Supply</p>
               </div>
               <div className='col-sm-3'>
               <IoBonfireSharp
                   style={{
-                    fontSize: 74,
+                    fontSize: "4.5em",
                     color: "#fb6340",
+                    marginBottom: '15px'
                   }}
                 />
-                <h5 className="livestatsh">523,987,416,676,083</h5>
-                <p>Burned Forever</p>
+                <p className="livestatsh text-sm-left">523,987,416,676,083</p>
+                <p className="livestatsh2">Burned Forever</p>
               </div>
               <div className='col-sm-3'>
               <IoCashOutline
                   style={{
-                    fontSize: 74,
+                    fontSize: "4.5em",
                     color: "#fb6340",
+                    marginBottom: '15px'
                   }}
                 />
-                <h5 className="livestatsh">${(this.state.containerDim * 476012583323917).toLocaleString("en-US",{ maximumSignificantDigits: 3 })}</h5>
-                <p>Market Cap</p>
+                <p className="livestatsh">${(this.state.containerDim * 476012583323917).toLocaleString("en-US",{ maximumSignificantDigits: 3 })}</p>
+                <p className="livestatsh2">Market Cap</p>
               </div>
             </div>
           </div>

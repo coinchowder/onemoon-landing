@@ -8,6 +8,11 @@ import { AiOutlineClose } from "react-icons/ai";
 // ======================°°°°°°°°°°°°°°°°°°°°°°°=========================
 //                               Navbar
 // ======================°°°°°°°°°°°°°°°°°°°°°°°=========================
+
+function imageClick(url) {
+  window.location = url;
+}
+
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
   // show drawer
@@ -24,7 +29,9 @@ const Navbar = () => {
         <div className='container'>
           <Link to='wellcome'>
             <span className='navbar-brand'>
-              <img src={Logo} width='50' alt='logo' />
+              <a href="https://onemoon.mochiswap.io">
+                <img src={Logo} width='50' alt='logo' />
+              </a>
             </span>
           </Link>
           <button className='navbar-toggler' type='button' onClick={showDrawer}>
@@ -40,9 +47,15 @@ const Navbar = () => {
                   </li>
                 </Link> */}
                 <li className='nav-item'>
+                  <a target="_blank" href='/fundraiser' className='nav-link'>
+                    FUNDRAISER
+                    <span className='video-play-button'></span>
+                  </a>
+                </li>
+                <li className='nav-item'>
                   <a target="_blank" href='https://t.me/mochiswaponemoon' className='nav-link'>
                     LIVE CHAT
-                    <span className='video-play-button'></span>
+                    <span className=''></span>
                   </a>
                 </li>
                 <li className='nav-item'>
@@ -61,8 +74,8 @@ const Navbar = () => {
                   </li>
                 </Link>
                 <li className='nav-item'>
-                  <a href='#' className='nav-link'>
-                    LITE PAPER
+                  <a href='onemoon.pdf' className='nav-link'>
+                    BLUE PAPER
                     <span className='video-play-button2'></span>
                   </a>
                 </li>

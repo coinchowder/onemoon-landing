@@ -66,10 +66,10 @@ const RoadMap = () => {
                   className='aos-init'
                   data-aos='fade-down'
                   data-aos-delay='1000'>
-                  <h4>OneMOON Founded</h4>
+                  <h4>ONEMOON Community Founded</h4>
                   <p>
-                     The early concept of a frictionless yield generation asset was born, for the first time seen on Harmony ONE, ONEMOON is the original deflationary on ONE!  The Community Project
-                     was started to empower Harmony ONE users the ability to enjoy a permissionless asset with locked liquidity, and frictionless staking. 
+                     The early concept of a frictionless yield generation asset was born, for the first time seen on Harmony ONE, ONEMOON is the original deflationary on Harmony!  The Community Project
+                     was started to empower Harmony ONE users to enjoy a permissionless asset, locked liquidity, and frictionless staking yield generation. 
                   </p>
                 </Timeline.Item>
                 <Timeline.Item
@@ -81,8 +81,8 @@ const RoadMap = () => {
                   <h4>Successful Launch</h4>
                   <p>
                     ONEMOON had an explosive Launch! In the first 48 hours there was over 200K ONE/ONEMOON in new locked liquidity forming the 
-                    underlying base for ONEMOON.  In the coming days there would a great deal of community effort with a huge amount of newly formed
-                    chat rooms, youtube, tiktok, and twitter posts!
+                    underlying liquidity for ONEMOON and it continues to grow daily. The community effort was incredible with a burst of new ONEMOON
+                    chat rooms, youtube & tiktok videos, and twitter posts!
                   </p>
                 </Timeline.Item>
                 <Timeline.Item
@@ -91,15 +91,13 @@ const RoadMap = () => {
                   className='aos-init'
                   data-aos='fade-down'
                   data-aos-delay='150'>
-                  <h4>New Exchanges, CoinGecko and CoinMarketCap Listings</h4>
+                  <h4>New Exchange, CoinGecko and CoinMarketCap Listings</h4>
                   <p>
-                    The community is now starting listing donation
-                    raise for several exchanges (i.e. Probit, BitMart, 
-                    Kraken, Bilaxy). The next stage is to complete some missing stages
-                    for full adoption of ONEMOON.  The First Listing donation has started
-                    for Bilaxy.  The exchange listing will be critical as it will not only
-                    give users an additional outlet for trading(something that was a concern),
-                    but this exchange listing will also automatically produce CoinGecko and CoinMarketCap Listings!
+                    The path going forward for ONEMOON will be to complete some needed items and to solve some issues
+                    that the community had voiced. The items included an easier route for new users to trade ONEMOON,
+                    along with various listings on sites like CoinGecko and CoinmMarketCap.  Since ONEMOON is a Harmony HRC20
+                    token it had more obstacles then ERC20/BEP20 tokens.  ONEMOON has been accepted by Bilaxy! The Listing
+                    donation is now live! This listing will solve the above issues. <a className="onemooncolor" target="_blank" href="https://onemoon.mochiswap.io/fundraiser">BILXAY DONATION PAGE</a>
                   </p>
                 </Timeline.Item>
                 <Timeline.Item
@@ -108,13 +106,11 @@ const RoadMap = () => {
                   className='aos-init'
                   data-aos='fade-down'
                   data-aos-delay='150'>
-                  <h4>The Moon and Beyound!</h4>
+                  <h4>The Moon and Beyond!</h4>
                   <p>
-                    For the remaining part of the year the ONEMOON community will make full pushes of 
-                    awareness with some critical established items such as easy ONEMOON purchasing
-                    resources and listings on needed websites.  During this time period the tokenomics
-                    will also be relooked it, explorered and potentially updated if there is more
-                    benefical tokenomics with a community vote!
+                    The ONEMOON community for the remainder of the year Q2-Q4 will focus on awareness for the
+                    ONEMOON project. More Detailed items will be coming out shortly! The ONEMOON community also has some partnerships in the works
+                    once the above items are updated! The Tokennomics of ONEMOON will also be looked at it for any improvements that can benefit it's current community stakeholders!
                   </p>
                 </Timeline.Item>
               </Timeline>

@@ -24,7 +24,9 @@ const Navbar2 = () => {
         <div className='container'>
           <Link to='home'>
             <span className='navbar-brand'>
-              <img src={Logo} width='50' alt='logo' />
+            <a href="https://onemoon.mochiswap.io">
+                <img src={Logo} width='50' alt='logo' />
+              </a>
             </span>
           </Link>
           <button className='navbar-toggler' type='button' onClick={showDrawer}>
