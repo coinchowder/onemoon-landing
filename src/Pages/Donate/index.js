@@ -7,6 +7,14 @@ import Navbar from "../../Components/Navbar2";
 import Logo from "../../Images/logo.png";
 import Bilaxy from "../../Images/bil.png";
 import Donate1 from "../../Images/donimage.png";
+import { ChainId, Token, Fetcher, Route } from '@mochiswap/hsdk'
+import BigNumber from 'bignumber.js'
+
+const { ethers } = require('ethers')
+const provider = new ethers.providers.JsonRpcProvider('https://api.harmony.one', {
+  chainId: 1666600000,
+  name: 'harmony-mainnet'
+});
 
 class Donate extends React.Component  {
     constructor(props)  {
@@ -15,11 +23,14 @@ class Donate extends React.Component  {
     }
 
     async componentWillMount() {
-       const call = "https://api.etherscan.io/api?module=account&action=balance&address=0xF4a6680FE9966Da033e2307712C0e06D1b4A00dc&tag=latest&apikey=YourApiKeyToken"
-       const response = await fetch(call)
-       const data = await response.json()
+        //    const call = "https://api.etherscan.io/api?module=account&action=balance&address=0xF4a6680FE9966Da033e2307712C0e06D1b4A00dc&tag=latest&apikey=YourApiKeyToken"
+        //    const response = await fetch(call)
+        //    const data = await response.json()
+       const data2 = await provider.getBalance("0xF4a6680FE9966Da033e2307712C0e06D1b4A00dc")
+       const data3 = (BigNumber(data2.toString()).div(1000000000000000000).toString())
+       console.log(data3)
        this.setState({
-        containerDim: data.result,
+        containerDim: data3,
       });
     }
 
@@ -49,7 +60,7 @@ class Donate extends React.Component  {
                                     <ul className="list-group">
                                         {/* <li className="list-group-item active">5 ETH is Required is required to be sent to Bilaxy.</li>
                                         <li className="list-group-item active">5 ETH Worth of ONEMOON is required to be sent to Bilaxy.</li> */}
-                                        <li className="list-group-item active">The Total Fundraise is for 5 ETH, and 5 ETH worth of ONEMOON(2 Trillion). This is from Bilaxy as the Requested Listing Fee Amounts. The ONEMOON is used to create a Market Maker in the listing pair.</li>
+                                        <li className="list-group-item active">The Total Fundraise is for 5 ETH(ONE will be converted into ETH), and 5 ETH worth of ONEMOON(2 Trillion, this has been accomplished!). This is from Bilaxy as the Requested Listing Fee Amounts. The ONEMOON is used to create a Market Maker in the listing pair.</li>
                                         <li className="list-group-item active">The Total Amounts only update when page is refreshed, or by checking on Etherscan or Harmony Explorer.</li>
                                         <li className="list-group-item active">The donation period has currently no deadline and will remain open until donation targets are met.</li>
                                         <li className="list-group-item active">Both ETH & ONEMOON assets are required as the Bilaxy Listing Fee. After both amounts are raised, they will be sent to Bilaxy. In 10 days or less Bilaxy will list ONEMOON.</li>
@@ -69,12 +80,11 @@ class Donate extends React.Component  {
                                     <p></p>
                                     <h1 className="justify-content-center onefont"><span>Ways to</span> DONATE</h1>
                                     <img src={Logo} className='w-200' alt='...' />
-                                    <h2 className="">ETH Raised so far: {this.state.containerDim}</h2>
-                                    <p>Total Donation Needed: 5 ETH</p>
-                                    <p>*ETH from Ethereum Mainet only please.</p>
-                                    <h2 className="">ONEMOON Raised so far: 0</h2>
-                                    <p>Total Donation Needed: 2 Trillion ONEMOON</p>
-                                    <p>*ONEMOON from Harmony Mainet only please.</p>
+                                    <h2 className="">ONE Raised so far: {this.state.containerDim}</h2>
+                                    <p>Total Donation Needed: 150,000 ONE</p>
+                                    <p>*ONE will be convered to ETH for Bilaxy requirements.</p>
+                                    <h2 className="">ONEMOON Raised so far: 2,261,504,535,595.577975724</h2>
+                                    <p className="list-group-item bg-success">Total ONEMOON Donation Needed: GOAL REACHED! Please no longer send onemoon!</p>
                                     <h2 className="">DAO Fundraiser Wallet Address:</h2>
                                     <p>*Please double check the donation address is correct before sending!</p>
                                     <p className="bg-primary" style={{fontSize: 14, color: "#00FFFF!important", width: "400px" }}>0xF4a6680FE9966Da033e2307712C0e06D1b4A00dc</p>

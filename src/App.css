@@ -7,14 +7,14 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #480090!important;
+  background: black!important;
   border-radius: 10px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   border-radius: 20px !important;
-  background: aqua!important;
+  background: rgb(118, 69, 217);
 }
 
 /* Handle on selected */
@@ -615,6 +615,7 @@ a {
 
 .Wellcome-section .livestatsh2 {
   margin-top: -40px!important;
+  font-weight: 600!important;
   color: rgb(251, 99, 64)!important;
 }
 
@@ -649,6 +650,11 @@ a {
     margin-top: 1px!important;
   }
 }
+
+.green {
+  color: green!important;
+}
+
 
 @media only screen and (min-width: 368px) and (max-width: 980px)  {
   .first-nav {

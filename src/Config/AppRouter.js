@@ -5,6 +5,12 @@ import { BrowserRouter, Router, Switch, Route } from "react-router-dom";
 import Home from "../Pages/Home";
 import WhitePaper from "../Pages/WhitePaper";
 import FundRaiser from "../Pages/Donate";
+
+// const provider = new ethers.providers.JsonRpcProvider('https://api.harmony.one', {
+//   chainId: 1666600000,
+//   name: 'harmony-mainnet'
+// });
+
 const AppRouter = () => {
   return (
     <>

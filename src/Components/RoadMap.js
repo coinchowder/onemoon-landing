@@ -110,7 +110,7 @@ const RoadMap = () => {
                   <p>
                     The ONEMOON community for the remainder of the year Q2-Q4 will focus on awareness for the
                     ONEMOON project. More Detailed items will be coming out shortly! The ONEMOON community also has some partnerships in the works
-                    once the above items are updated! The Tokennomics of ONEMOON will also be looked at it for any improvements that can benefit it's current community stakeholders!
+                    once the above items are updated! The Tokenomics of ONEMOON will also be looked at it for any improvements that can benefit its current community stakeholders!
                   </p>
                 </Timeline.Item>
               </Timeline>

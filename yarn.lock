@@ -2428,22 +2428,31 @@
     "@babel/runtime" "^7.4.4"
 
 "@material-ui/lab@*":
-  version "5.0.0-alpha.36"
-  resolved "https://registry.yarnpkg.com/@material-ui/lab/-/lab-5.0.0-alpha.36.tgz#994ca08601aa36eae5cf2993b5ec190e0eaf3488"
-  integrity sha512-0aJrC4l1iKDZqUTsn85q9xzqVBVZr+qpO8l7rZV1KqI5yKsa4jzUG/wZqbx+dgjhKnxxigB58mQ+Q3Xfbc17jg==
+  version "5.0.0-alpha.37"
+  resolved "https://registry.yarnpkg.com/@material-ui/lab/-/lab-5.0.0-alpha.37.tgz#989a75f81d8a3e9ddde25e2184edd50f06f03477"
+  integrity sha512-RjEoUdHyNWGYU6r9CXu83MEOJDGcgMD0YS8yrZ2t94rHRKaKosTEByCWd7gDBPXMxiNpv5EaZddJdEBVs56FHw==
   dependencies:
     "@babel/runtime" "^7.4.4"
     "@date-io/date-fns" "^2.10.6"
     "@date-io/dayjs" "^2.10.6"
     "@date-io/luxon" "^2.10.6"
     "@date-io/moment" "^2.10.6"
-    "@material-ui/system" "5.0.0-alpha.36"
+    "@material-ui/system" "5.0.0-alpha.37"
     "@material-ui/utils" "5.0.0-alpha.35"
     clsx "^1.0.4"
     prop-types "^15.7.2"
     react-is "^17.0.0"
     react-transition-group "^4.4.1"
     rifm "^0.12.0"
+
+"@material-ui/private-theming@5.0.0-alpha.35":
+  version "5.0.0-alpha.35"
+  resolved "https://registry.yarnpkg.com/@material-ui/private-theming/-/private-theming-5.0.0-alpha.35.tgz#6efb33abff0cdee5890b0ddf67564244b35630f2"
+  integrity sha512-D02L9kYjnMd8PtJUSXpiBk13+FnjQIDWINzBtRJXpwDooA7M3ejtTGPp+YJnP/wYs4nKdh852/+WiRk3VI5q4Q==
+  dependencies:
+    "@babel/runtime" "^7.4.4"
+    "@material-ui/utils" "5.0.0-alpha.35"
+    prop-types "^15.7.2"
 
 "@material-ui/styled-engine@5.0.0-alpha.34":
   version "5.0.0-alpha.34"
@@ -2476,12 +2485,13 @@
     jss-plugin-vendor-prefixer "^10.5.1"
     prop-types "^15.7.2"
 
-"@material-ui/system@5.0.0-alpha.36":
-  version "5.0.0-alpha.36"
-  resolved "https://registry.yarnpkg.com/@material-ui/system/-/system-5.0.0-alpha.36.tgz#db2db64068af9680cfb79f2dbea896b49de47b47"
-  integrity sha512-1QqINDfNv5y+5TY/p66qkWAZsQGO+HDPDFpTELXtSC9F7zzuosPdJGMM8YFD7vecY4KdDWhCvA4f2G/vI6x8nw==
+"@material-ui/system@5.0.0-alpha.37":
+  version "5.0.0-alpha.37"
+  resolved "https://registry.yarnpkg.com/@material-ui/system/-/system-5.0.0-alpha.37.tgz#0bac409badb8e9fcbd3c3da05ec071db2edf2630"
+  integrity sha512-4eu05aXLWMzth6nsgRT6bvr88jDlPEsum0s9JZ4SO6MR/vqoVSpWk8Vesv2YifwPlvr6k+dv5XXb+DCdsYhIrQ==
   dependencies:
     "@babel/runtime" "^7.4.4"
+    "@material-ui/private-theming" "5.0.0-alpha.35"
     "@material-ui/styled-engine" "5.0.0-alpha.34"
     "@material-ui/types" "6.0.1"
     "@material-ui/utils" "5.0.0-alpha.35"
