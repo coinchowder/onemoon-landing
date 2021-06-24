@@ -341,6 +341,11 @@ body {
   background: -webkit-linear-gradient(#00aee9,#69fabd)!important;
   -webkit-background-clip: text!important;
   -webkit-text-fill-color: transparent!important;
+  font-family: Orbitron!important;
+}
+
+h1.topone2 {
+  font-family: Orbitron!important;
 }
 
 .Donate-section h2 {
