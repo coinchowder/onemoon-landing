@@ -88,7 +88,7 @@ class Wellcome extends React.Component  {
                 data-aos='fade-up'
                 data-aos-offset='100'>
                 <p></p>
-                <div className="row col-sm-12">
+                <div className="row">
                   <h1 className="justify-content-center topone2"><span className="topone">ONE</span>MOON</h1>
                 </div>
                 <h2 className="justify-content-center">The <span style={{ color: "#fb6340" }}>ORIGINAL</span> and FIRST Harmony ONE Community-Driven Deflationary Project.</h2>
@@ -111,8 +111,8 @@ class Wellcome extends React.Component  {
   // ======================°°°°°°°°°°°°°°°°°°°°°°°=========================
   */}
           <div className='container welcome-container mt-5 livestats'>
-            <div className='row p-5 pr-5 pl-5'>
-              <div className='col-md-2 offset-md-1'>
+            <div className='row p-12 pr-5 pl-5'>
+              <div className='col-lg-2 offset-lg-1'>
                 <IoAnalyticsOutline
                   style={{
                     fontSize: "4.5em",
@@ -123,7 +123,7 @@ class Wellcome extends React.Component  {
                 <p className="livestatsh">{this.state.containerDim == 0 ? "Loading" : (`$${this.state.containerDim * 1000000}`).toLocaleString("en-US",{ maximumFractionDigits: 2 })}</p>
                 <p className="livestatsh2">1 Million ONEMOONS</p>
               </div>
-              <div className='col-md-2'>
+              <div className='col-lg-2'>
                 <IoLockClosedSharp
                   style={{
                     fontSize: "4.5em",
@@ -134,7 +134,7 @@ class Wellcome extends React.Component  {
                 <p className="livestatsh">1,102,619</p>
                 <p className="livestatsh2">ONE locked forever</p>
               </div>
-              <div className='col-md-2'>
+              <div className='col-lg-2'>
               <IoBarcodeOutline
                   style={{
                     fontSize: "4.5em",
@@ -145,7 +145,7 @@ class Wellcome extends React.Component  {
                 <p className="livestatsh">{this.state.containerDim2 == 0 ? "Loading" : this.state.containerDim2.toLocaleString("en-US",{ maximumSignificantDigits: 7 })}</p>
                 <p className="livestatsh2">Max Supply Ever</p>
               </div>
-              <div className='col-md-2'>
+              <div className='col-lg-2'>
               <IoBonfireSharp
                   style={{
                     fontSize: "4.5em",
@@ -156,7 +156,7 @@ class Wellcome extends React.Component  {
                 <p className="livestatsh text-sm-left">578,509,166,879,332</p>
                 <p className="livestatsh2">Burned Forever</p>
               </div>
-              <div className='col-md-2'>
+              <div className='col-lg-2'>
               <IoCashOutline
                   style={{
                     fontSize: "4.5em",
