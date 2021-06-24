@@ -88,8 +88,8 @@ class Wellcome extends React.Component  {
                 data-aos='fade-up'
                 data-aos-offset='100'>
                 <p></p>
-                <div className="row">
-                <h1 className="justify-content-center topone2"><span className="topone">ONE</span>MOON</h1>
+                <div className="row col-sm-12">
+                  <h1 className="justify-content-center topone2"><span className="topone">ONE</span>MOON</h1>
                 </div>
                 <h2 className="justify-content-center">The <span style={{ color: "#fb6340" }}>ORIGINAL</span> and FIRST Harmony ONE Community-Driven Deflationary Project.</h2>
                 <a target="_blank" href="https://one.mochiswap.io/#/swap?outputCurrency=0xCB35e4945c7F463c5CCBE3BF9f0389ab9321248F"className="justify-content-center">0xcb35e4945c7f463c5ccbe3bf9f0389ab9321248f</a>
