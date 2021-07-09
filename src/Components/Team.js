@@ -3,12 +3,6 @@
 import React from "react";
 import { IoRocketSharp } from "react-icons/io5";
 import {
-  capt,
-  fox,
-  hank,
-  jack,
-  ragnar,
-  thomas,
   Newsweek_logo,
   Wsj,
   Bloomberg_logo,
@@ -61,7 +55,7 @@ const Team = () => {
                 data-aos-offset='100'
                 data-aos-delay='0'>
                 <p id='member-status'>COO</p>
-                <img src={capt} alt='...' width='100%' />
+                <img src={express} alt='...' width='100%' />
                 <div className='card-body'>
                   <h6>John Karony</h6>
                   <p className='text-muted'>Capt Hodl</p>
@@ -88,7 +82,7 @@ const Team = () => {
                 data-aos-delay='0'>
                 <p id='member-status'>CTO</p>
 
-                <img src={thomas} alt='...' width='100%' />
+                <img src={express} alt='...' width='100%' />
                 <div className='card-body'>
                   <h6>Thomas Smith</h6>
                   <p className='text-muted'>Papa</p>
@@ -115,7 +109,7 @@ const Team = () => {
                 data-aos-delay='0'>
                 <p id='member-status'>DOSE</p>
 
-                <img src={hank} alt='...' width='100%' />
+                <img src={express} alt='...' width='100%' />
                 <div className='card-body'>
                   <h6>Hank Wyatt</h6>
                   <p className='text-muted'>It's a cat, ok?</p>
@@ -143,7 +137,7 @@ const Team = () => {
                 data-aos-offset='100'
                 data-aos-delay='0'>
                 <p id='member-status'>COO</p>
-                <img src={jack} alt='...' width='100%' />
+                <img src={express} alt='...' width='100%' />
                 <div className='card-body'>
                   <h6>Jack Haine</h6>
                   <p className='text-muted'>Jack</p>
@@ -166,7 +160,7 @@ const Team = () => {
                 data-aos-offset='100'
                 data-aos-delay='0'>
                 <p id='member-status'>CM</p>
-                <img src={ragnar} alt='...' width='100%' />
+                <img src={express} alt='...' width='100%' />
                 <div className='card-body'>
                   <h6>Trevor Church</h6>
                   <p className='text-muted'>Ragnar Safemoonson</p>
@@ -192,7 +186,7 @@ const Team = () => {
                 data-aos-offset='100'
                 data-aos-delay='0'>
                 <p id='member-status'>WEB DEV</p>
-                <img src={fox} alt='...' width='100%' />
+                <img src={express} alt='...' width='100%' />
                 <div className='card-body'>
                   <h6>Jacob Smith</h6>
                   <p className='text-muted'>OG KingFox</p>

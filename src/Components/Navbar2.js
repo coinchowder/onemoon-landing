@@ -24,7 +24,7 @@ const Navbar2 = () => {
         <div className='container'>
           <Link to='home'>
             <span className='navbar-brand'>
-            <a href="https://onemoon.mochiswap.io">
+              <a href="https://onemoon.mochiswap.io">
                 <img src={Logo} width='50' alt='logo' />
               </a>
             </span>

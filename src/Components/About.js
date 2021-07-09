@@ -5,11 +5,13 @@ import {
   About_img1,
   About_img2,
   About_img3,
+  About_img4,
   BscScan,
   certik,
   nomics,
   coingecko,
   coinmarket,
+  coingecko2,
 } from "../Images/image";
 
 // ======================°°°°°°°°°°°°°°°°°°°°°°°=========================
@@ -33,9 +35,10 @@ const About = () => {
                 data-bs-slide-to='0'
                 aria-current='true'
                 aria-label='Slide 1'>
-                <h4>Community Driven PASSIVE REWARDS</h4>
+                <h4>DAO Community Driven</h4>
                 <p>
-                ONEMOON is a deflationary "static/reflective rewards" defi experiment inspired by Passive Reward Mechanics.
+                OneMoon is a deflationary "static/reflective rewards" DAO community. It is inspired by Passive Reward Mechanics. The OneMoon DAO was established
+                resource which is ever-growing from allocations during the burning process.
                 </p>
               </button>
               <button
@@ -43,9 +46,9 @@ const About = () => {
                 data-bs-target='#carouselExampleIndicators'
                 data-bs-slide-to='1'
                 aria-label='Slide 2'>
-                <h4>FEES</h4>
+                <h4>PASSIVE RELFECTION REWARDS</h4>
                 <p>
-                5% goes to existing holders of ONEMOON as rewards. 2.5% is used to create permanently locked liquidity between ONEMOON-ONE using MochiSwap LPs.
+                5% goes to existing holders of OneMoon as rewards. As a OneMoon StakeHolder, you earn passive income by just holding ONEMOON with 5% yields when the burn process intitiates. This builds up over time from buying and selling.
                 </p>
               </button>
               <button
@@ -53,9 +56,19 @@ const About = () => {
                 data-bs-target='#carouselExampleIndicators'
                 data-bs-slide-to='2'
                 aria-label='Slide 3'>
-                <h4>BURNS</h4>
+                <h4>BURNS & LOCKED LIQUIDITY</h4>
                 <p>
-                1.25% is used to burn ONEMOON, 1.25% is used to burn HMOCHI.
+                One of the key attributes with OneMoon is its locked liquidity.  This allows the community to have insurance that there will always be an ever growing liquidity pool for stakeholders to utitlize.
+                Here the breakdown of how the locked liquidity and burning fees operate:
+                <br />
+                <br />
+                - 1.5% is used to create permanently locked liquidity between OneMoon-ONE, 1.5% is added to the DAO community fund. 
+                <br />
+                <br />
+                - 1% is used to burn hMOCHI & OneMoon, 1.5% is added to the DAO community fund. 
+                <br />
+                <br />
+                <span style={{fontSize: "12px"}}>* Based on DAO decentralized voting these figures can update based on community needs. </span>
                 </p>
               </button>
               <button
@@ -65,7 +78,7 @@ const About = () => {
                 aria-label='Slide 3'>
                 <h4>FAIR LAUNCH</h4>
                 <p>
-                ONEMOON is a DAO Community Project. It was launched fairly, all tokens have been minted and added to LOCKED liquidity in a MochiSwap LP. There was no presale, ICO, or any pre-distribution. All Tokens can only be swapped for in the open market.
+                ONEMOON was launched fairly, all tokens have been minted and added to LOCKED liquidity in a MochiSwap LP. There was no presale, ICO, or any pre-distribution. All Tokens can only be swapped for in the open market.
                 </p>
               </button>
             </div>
@@ -90,6 +103,9 @@ const About = () => {
                     <img src={About_img3} className='d-block w-100' alt='...' />
                   </div>
                 </div>
+              </div>
+              <div className='active carousel-item'>
+                    {/* <img src={About_img4} className='d-block w-100 spacedown' alt='...' /> */}
               </div>
             </div>
           </div>
@@ -118,14 +134,19 @@ const About = () => {
                   <img src={nomics} alt='...' width='150' />
                 </a>
               </div> */}
-              <div className='col-sm-4'>
-                <a href='https://harmony.one'>
-                  <img className="extimage" src={coinmarket} alt='...' width='250' />
+              <div className='col-lg-4'>
+                <a target="_blank" href='https://one.mochiswap.io'>
+                  <img className="extimage mx-auto d-block" src={coinmarket} alt='...' width='250' />
                 </a>
               </div>
-              <div className='col-sm-2 offset-1'>
-                <a href='https://one.mochiswap.io'>
-                  <img className="extimage" src={coingecko} alt='...' width='200' />
+              <div className='col-lg-4'>
+                <a target="_blank" href='https://harmony.one'>
+                  <img className="extimage mx-auto d-block" src={coingecko} alt='...' width='200' />
+                </a>
+              </div>
+              <div className='col-lg-4'>
+                <a target="_blank" href='https://www.livecoinwatch.com/price/OneMoon-ONEMOON'>
+                  <img className="extimage mx-auto d-block coingecko2img" src={coingecko2} alt='...' width='200' />
                 </a>
               </div>
             </div>

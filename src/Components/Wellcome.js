@@ -14,6 +14,7 @@ import { IoBonfireSharp } from "react-icons/io5";
 import { IoCashOutline } from "react-icons/io5";
 import { ChainId, Token, Fetcher, Route, TokenAmount } from '@mochiswap/hsdk'
 import BigNumber from 'bignumber.js'
+import {parse} from 'himalaya';
 
 // ======================°°°°°°°°°°°°°°°°°°°°°°°=========================
 //                         Wellcome Component
@@ -29,10 +30,27 @@ class Wellcome extends React.Component  {
 
   constructor(props)  {
     super(props);
-    this.state = {containerDim: 0, containerDim2: 0};
+    this.state = {containerDim: 0, containerDim2: 0, count: 0};
   }
 
   async componentWillMount() {
+    //     const headers = { 'Access-Control-Allow-Origin': '*', 
+    //                   'Access-Control-Allow-Headers': '*',
+    //                   'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS' }
+    // const html = await fetch("https://beta.explorer.harmony.one/address/0xcb35e4945c7f463c5ccbe3bf9f0389ab9321248f", { headers }); 
+    // const doc = new DOMParser().parseFromString(html, 'text/html');
+    // alert(doc.title, doc.body)   
+    // const headers = { 'Access-Control-Allow-Origin': '*', 
+    //                   'Access-Control-Allow-Headers': '*' }
+    // const html = await fetch('https://api.npms.io/v2/search?q=react', { headers })
+    // .then((response) => {
+    //   return response.text();
+    // })
+    // .then((response) => {
+    //   alert(response)
+    // });
+    // const json = parse(html);
+    // alert(JSON.stringify(json));
     const tokens = {
       'ONEMOON': '0xCB35e4945c7F463c5CCBE3BF9f0389ab9321248F',
       'USDC': '0x985458E523dB3d53125813eD68c274899e9DfAb4',
@@ -65,7 +83,7 @@ class Wellcome extends React.Component  {
     // const balance = await Route.balanceOf(ChainId.HARMONY_MAINNET, '0xCB35e4945c7F463c5CCBE3BF9f0389ab9321248F', '0x0000000000000000000000000000000000000001')    
     // const route2 = new Route([targetPair2], ONE, ONE)
     // console.log(balances2)
-    const supply = BigNumber(1000000000000000) - BigNumber(580898963556711)
+    const supply = BigNumber(1000000000000000) - BigNumber(582926561277859)
 
     const route = new Route([targetPair], USDC, USDC)
     const result = await route.midPrice.invert().toSignificant(6)  
@@ -97,6 +115,7 @@ class Wellcome extends React.Component  {
                 <div className="col-12 hidden-sm">
                   <img src={line} className='hidden-sm img-fluid w-800 lineimage' alt='...' />
                 </div>
+                <p className="jointoday" style={{color: "#007bff"}}>Join 3,445 OneMoon Holders Today!</p>
                 <a target="_blank" href="https://one.mochiswap.io/#/swap?outputCurrency=0xCB35e4945c7F463c5CCBE3BF9f0389ab9321248F" className='btn button button-live-chat'>GET ONEMOON NOW!</a>
                 {/* <button className='button-Buy-now'>
                   TRADE NOW <FaArrowRight />

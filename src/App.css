@@ -624,6 +624,12 @@ a {
   color: rgb(251, 99, 64)!important;
 }
 
+p.jointoday {
+  padding-top: 0px!important;
+  color: rgb(251, 99, 64)!important;
+  font-size: 2em!important;
+}
+
 @media only screen and (max-width: 600px) {
   .Wellcome-section h1 {
     font-size: 50px!important;
@@ -660,17 +666,45 @@ a {
   /* .Wellcome-section h1 {
     font-size: 20px!important;
   } */
+  #about {
+    background-image: none!important;
+  }
 }
 
 .green {
   color: green!important;
 }
 
+.coingecko2img {
+  margin-top: 7px;
+}
 
-@media only screen and (min-width: 368px) and (max-width: 980px)  {
+#about {
+  background-image: url("./Images/About_img4.png") !important;
+  background-size: 450px;
+  /* background-position: fixed right bottom;  */
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-position-x: 105%;
+  background-position-y: 90%;
+}
+.spacedown {
+  margin-right: -1265px!important;
+}
+
+
+@media only screen and (min-width: 168px) and (max-width: 980px)  {
   .first-nav {
     margin-bottom: 20px!important;
     margin-top: -21px!important;
+  }
+  .Wellcome-section h1 {
+    font-size: 50px!important;
+    margin-top: -180px !important;
+    margin-bottom: 80px!important;
+  } 
+  #about {
+    background-image: none!important;
   }
 }
 
