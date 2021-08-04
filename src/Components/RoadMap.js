@@ -68,7 +68,7 @@ const RoadMap = () => {
                   data-aos-delay='1000'>
                   <h4>ONEMOON Community Founded</h4>
                   <p>
-                     The early concept of a frictionless yield generation asset was born, for the first time seen on Harmony ONE, ONEMOON is the original deflationary on Harmony!  The Community Project
+                     The early concept of a frictionless yield generation asset was born, for the first time seen on Harmony ONE, ONEMOON is the original deflationary on Harmony! The Community Project
                      was started to empower Harmony ONE users to enjoy a permissionless asset, locked liquidity, and frictionless staking yield generation. 
                   </p>
                 </Timeline.Item>
@@ -80,7 +80,7 @@ const RoadMap = () => {
                   data-aos-delay='150'>
                   <h4>Successful Launch</h4>
                   <p>
-                    ONEMOON had an explosive Launch! In the first 48 hours there was over 200K ONE/ONEMOON in new locked liquidity forming the 
+                    ONEMOON had an explosive Launch! In the first 48 hours there were over 200K ONE/ONEMOON in new locked liquidity forming the
                     underlying liquidity for ONEMOON and it continues to grow daily. The community effort was incredible with a burst of new ONEMOON
                     chat rooms, youtube & tiktok videos, and twitter posts!
                   </p>
@@ -94,10 +94,10 @@ const RoadMap = () => {
                   <h4>New Exchange, CoinGecko and CoinMarketCap Listings</h4>
                   <p>
                     The path going forward for ONEMOON will be to complete some needed items and to solve some issues
-                    that the community had voiced. The items included an easier route for new users to trade ONEMOON,
-                    along with various listings on sites like CoinGecko and CoinmMarketCap.  Since ONEMOON is a Harmony HRC20
-                    token it had more obstacles then ERC20/BEP20 tokens.  ONEMOON has been accepted by Bilaxy! The Listing
-                    donation is now live! This listing will solve the above issues. <a className="onemooncolor" target="_blank" href="https://onemoon.mochiswap.io/fundraiser">BILXAY DONATION PAGE</a>
+                    that the community had voiced. These items include an easier route for new users to trade ONEMOON,
+                    along with various listings on sites like CoinGecko and CoinMarketCap.  Since ONEMOON is a Harmony HRC20
+                    token it had more obstacles then ERC20/BEP20 tokens. ONEMOON has been accepted by Bilaxy! The Listing
+                    donation is now live! This listing will solve the above issues. <a className="onemooncolor" target="_blank" href="https://onemoon.mochiswap.io/fundraiser">BILAXY DONATION PAGE</a>
                   </p>
                 </Timeline.Item>
                 <Timeline.Item
@@ -109,8 +109,8 @@ const RoadMap = () => {
                   <h4>The Moon and Beyond!</h4>
                   <p>
                     The ONEMOON community for the remainder of the year Q2-Q4 will focus on awareness for the
-                    ONEMOON project. More Detailed items will be coming out shortly! The ONEMOON community also has some partnerships in the works
-                    once the above items are updated! The Tokenomics of ONEMOON will also be looked at it for any improvements that can benefit its current community stakeholders!
+                    ONEMOON project. More detailed items will be coming out shortly! The ONEMOON community also has some partnerships in the works
+                    once the above items are updated! The tokenomics of ONEMOON will also be looked at for any improvements that can benefit its current community stakeholders!
                   </p>
                 </Timeline.Item>
               </Timeline>
