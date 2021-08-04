@@ -36,7 +36,7 @@ const FirstNav = () => {
               </a>
             </li>
             <li>
-              <a target="_blank" href='https://twitter.com/mochiswap'>
+              <a target="_blank" href='https://twitter.com/OneMooner'>
                 <FaTwitter className='icons' />
               </a>
             </li>
