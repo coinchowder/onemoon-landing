@@ -65,7 +65,7 @@ const RoadMap = () => {
                   color='aqua'
                   className='aos-init'
                   data-aos='fade-down'
-                  data-aos-delay='1000'>
+                  data-aos-delay='150'>
                   <h4>ONEMOON Community Founded</h4>
                   <p>
                      The early concept of a frictionless yield generation asset was born, for the first time seen on Harmony ONE, ONEMOON is the original deflationary on Harmony! The Community Project
