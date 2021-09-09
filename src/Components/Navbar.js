@@ -55,7 +55,7 @@ const Navbar = () => {
                 <li className='nav-item'>
                   <a target="_blank" href='https://t.me/mochiswaponemoon' className='nav-link'>
                     LIVE CHAT
-                    <span className=''></span>
+                    <span className='video-play-button'></span>
                   </a>
                 </li>
                 <li className='nav-item'>
