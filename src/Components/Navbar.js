@@ -45,13 +45,13 @@ const Navbar = () => {
                   <li className='nav-item'>
                     <span className='nav-link'>HOME</span>
                   </li>
-                </Link> */}
+                </Link> 
                 /*<li className='nav-item'>
                   <a target="_blank" href='/fundraiser' className='nav-link'>
                     FUNDRAISER
                     <span className='video-play-button'></span>
                   </a>
-                </li>*/
+                </li>*/}
                 <li className='nav-item'>
                   <a target="_blank" href='https://t.me/mochiswaponemoon' className='nav-link'>
                     LIVE CHAT
