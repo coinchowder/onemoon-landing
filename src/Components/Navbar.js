@@ -46,16 +46,16 @@ const Navbar = () => {
                     <span className='nav-link'>HOME</span>
                   </li>
                 </Link> */}
-                <li className='nav-item'>
+                /*<li className='nav-item'>
                   <a target="_blank" href='/fundraiser' className='nav-link'>
                     FUNDRAISER
                     <span className='video-play-button'></span>
                   </a>
-                </li>
+                </li>*/
                 <li className='nav-item'>
                   <a target="_blank" href='https://t.me/mochiswaponemoon' className='nav-link'>
                     LIVE CHAT
-                    <span className=''></span>
+                    <span className='video-play-button'></span>
                   </a>
                 </li>
                 <li className='nav-item'>
@@ -64,7 +64,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li className='nav-item'>
-                  <a href='https://one.mochiswap.io' className='nav-link'>
+                  <a target="_blank" href='https://one.mochiswap.io' className='nav-link'>
                   TRADE
                   </a>
                 </li>
@@ -74,13 +74,13 @@ const Navbar = () => {
                   </li>
                 </Link>
                 <li className='nav-item'>
-                  <a href='onemoon.pdf' className='nav-link'>
+                  <a target="_blank" href='onemoon.pdf' className='nav-link'>
                     BLUE PAPER
                     <span className='video-play-button2'></span>
                   </a>
                 </li>
                 <li className='nav-item'>
-                  <a href='https://onemoon.mochiswap.io/whitepaper.html' className='nav-link'>
+                  <a target="_blank" href='https://onemoon.mochiswap.io/whitepaper.html' className='nav-link'>
                     WHITE PAPER
                   </a>
                 </li>
