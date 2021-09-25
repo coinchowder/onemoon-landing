@@ -37,7 +37,7 @@ const About = () => {
                 aria-label='Slide 1'>
                 <h4>DAO Community Driven</h4>
                 <p>
-                OneMoon is a deflationary "static/reflective rewards" DAO community. It is inspired by Passive Reward Mechanics. The OneMoon DAO was established
+                OneMoon is a deflationary "static/reflective rewards" DAO community. It is inspired by Passive Reward Mechanics. The OneMoon DAO is an established
                 resource which is ever-growing from allocations during the burning process.
                 </p>
               </button>
@@ -58,7 +58,7 @@ const About = () => {
                 aria-label='Slide 3'>
                 <h4>BURNS & LOCKED LIQUIDITY</h4>
                 <p>
-                One of the key attributes with OneMoon is its locked liquidity.  This allows the community to have insurance that there will always be an ever growing liquidity pool for stakeholders to utitlize.
+                One of the key attributes with OneMoon is its locked liquidity.  This allows the community to have insurance that there will always be an ever growing liquidity pool for stakeholders to utilize.
                 Here the breakdown of how the locked liquidity and burning fees operate:
                 <br />
                 <br />
@@ -78,7 +78,7 @@ const About = () => {
                 aria-label='Slide 3'>
                 <h4>FAIR LAUNCH</h4>
                 <p>
-                ONEMOON was launched fairly, all tokens have been minted and added to LOCKED liquidity in a MochiSwap LP. There was no presale, ICO, or any pre-distribution. All Tokens can only be swapped for in the open market.
+                ONEMOON was launched fairly, all tokens have been minted and added to LOCKED liquidity in a MochiSwap LP. There was no pre-sale, ICO, or any pre-distribution. All Tokens can only be swapped for in the open market.
                 </p>
               </button>
             </div>
