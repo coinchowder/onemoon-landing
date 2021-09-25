@@ -96,7 +96,7 @@ const RoadMap = () => {
                     The path going forward for ONEMOON will be to complete some needed items and to solve some issues
                     that the community had voiced. These items include an easier route for new users to trade ONEMOON,
                     along with various listings on sites like CoinGecko and CoinMarketCap.  Since ONEMOON is a Harmony HRC20
-                    token it had more obstacles then ERC20/BEP20 tokens. ONEMOON has been accepted by Bilaxy! The Listing
+                    token it had more obstacles then ERC20/BEP20 tokens. The Listing
                     donation is now live! This listing will solve the above issues.
                   </p>
                 </Timeline.Item>

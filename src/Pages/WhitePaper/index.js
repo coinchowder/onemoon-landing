@@ -21,7 +21,7 @@ function WhitePaper() {
       <div className="container py-2 bg-light">
         <div className="p-5">
         <h1>Introduction</h1>
-        <p>ONEMOON is the first deflationary, passive yield generation token on the Harmony ONE network. At inception, the core premise of ONEMOON was create a frictionless static yield generation asset that offers stakeholders a new type of passive rewards which does not require the asset to be staked, or used to provide liquidity. To partake in DeFi yields all you have to do is hold ONEMOON.
+        <p>ONEMOON is the first deflationary, passive yield generation token on the Harmony ONE network. At inception, the core premise of ONEMOON was to create a frictionless static yield generation asset that offers stakeholders a new type of passive rewards which does not require the asset to be staked or used to provide liquidity. To partake in DeFi yields, all you have to do is hold ONEMOON.
 
 
 There is an abundance of new users entering blockchain and DeFi. The popular yield generation methods, such as farming, providing liquidity or various other staking methods, are complex topics and can feel cumbersome to new users. This friction can slow down mass adoption of decentralized financial systems, which are meant to empower all types of users, all around the world, not just the most technically proficient in leading economies. There is nothing more convenient or simple than passively holding a DeFi asset and receiving rewards that just "appear" in your wallet.
