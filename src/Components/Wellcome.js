@@ -115,7 +115,7 @@ class Wellcome extends React.Component  {
                 <div className="col-12 hidden-sm">
                   <img src={line} className='hidden-sm img-fluid w-800 lineimage' alt='...' />
                 </div>
-                <p className="jointoday" style={{color: "#007bff"}}>Join 3,445 OneMoon Holders Today!</p>
+                <p className="jointoday" style={{color: "#007bff"}}>Join 6,789 OneMoon Holders Today!</p>
                 <a target="_blank" href="https://one.mochiswap.io/#/swap?outputCurrency=0xCB35e4945c7F463c5CCBE3BF9f0389ab9321248F" className='btn button button-live-chat'>GET ONEMOON NOW!</a>
                 {/* <button className='button-Buy-now'>
                   TRADE NOW <FaArrowRight />
@@ -172,7 +172,7 @@ class Wellcome extends React.Component  {
                     marginBottom: '15px'
                   }}
                 />
-                <p className="livestatsh text-sm-left">578,509,166,879,332</p>
+                <p className="livestatsh text-sm-left">597,403,714,256,215</p>
                 <p className="livestatsh2">Burned Forever</p>
               </div>
               <div className='col-lg-2'>
