@@ -109,7 +109,7 @@ class Wellcome extends React.Component  {
                 <div className="row">
                   <h1 className="justify-content-center topone2"><span className="topone">ONE</span>MOON</h1>
                 </div>
-                <h2 className="justify-content-center">The <span style={{ color: "#fb6340" }}>ORIGINAL</span> and FIRST Harmony ONE Community-Driven Deflationary Project.</h2>
+                <h2 className="justify-content-center">The <span style={{ color: "#fb6340" }}>ORIGINAL</span> Harmony ONE Community-Driven Deflationary Project.</h2>
                 <a target="_blank" href="https://one.mochiswap.io/#/swap?outputCurrency=0xCB35e4945c7F463c5CCBE3BF9f0389ab9321248F"className="justify-content-center">0xcb35e4945c7f463c5ccbe3bf9f0389ab9321248f</a>
                 {/* <p className="justify-content-center col-md-7 col-offset-4"> <img src={line} className='col-md-7 col-offset-4 text-center' alt='...' /></p> */}
                 <div className="col-12 hidden-sm">
